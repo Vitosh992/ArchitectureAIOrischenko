@@ -1,0 +1,13 @@
+Original Model:
+Demo Accuracy: 55.416666666666664%
+
+Hyperparameter Tuning Results:
+Learning Rate: 0.01, Epochs: 5, Demo Accuracy: 58.75%
+Learning Rate: 0.01, Epochs: 10, Demo Accuracy: 48.333333333333336%
+Learning Rate: 0.01, Epochs: 15, Demo Accuracy: 53.333333333333336%
+Learning Rate: 0.001, Epochs: 5, Demo Accuracy: 54.583333333333336%
+Learning Rate: 0.001, Epochs: 10, Demo Accuracy: 59.583333333333336%
+Learning Rate: 0.001, Epochs: 15, Demo Accuracy: 59.583333333333336%
+Learning Rate: 0.0001, Epochs: 5, Demo Accuracy: 57.5%
+Learning Rate: 0.0001, Epochs: 10, Demo Accuracy: 52.5%
+Learning Rate: 0.0001, Epochs: 15, Demo Accuracy: 55.416666666666664%
