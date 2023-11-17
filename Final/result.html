@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Результат</title>
+</head>
+<body>
+    <h1>Результат</h1>
+    <table>
+    <tr>
+        <td><strong>ФИО:</strong> {{ data.fio }}</td>
+    </tr>
+    <tr>
+        <td><strong>Серия и номер паспорта:</strong> {{ data.passport }}</td>
+    </tr>
+    <tr>
+        <td><strong>Пол:</strong> {{ data.gender }}</td>
+    </tr>
+    <tr>
+        <td><strong>Наличие детей:</strong> {{ data.children }}</td>
+    </tr>
+    <tr>
+        <td><strong>Курит ли человек:</strong> {{ data.smokes }}</td>
+    </tr>
+    <tr>
+        <td><strong>Регион жительства:</strong> {{ data.region }}</td>
+    </tr>
+    <tr>
+        <td><strong>Дата рождения:</strong> {{ data.birthdate }}</td>
+    </tr>
+    <tr>
+        <td><strong>Вес:</strong> {{ data.weight }}</td>
+    </tr>
+    <tr>
+        <td><strong>Рост:</strong> {{ data.height }}</td>
+    </tr>
+    <tr>
+        <td><strong>Индекс массы тела:</strong> {{ data.bmi }}</td>
+    </tr>
+</table>
+
+	<p><strong><b>Цена за страховку:</strong> {{ data.pred_result }} руб.</p></b>
+	
+</body>
+</html>

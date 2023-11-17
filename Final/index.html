@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Рассчитать стоимость страховки</title>
+</head>
+<body>
+    <h1>Ввод данных о клиенте</h1>
+    <form action="{{ url_for('result') }}" method="post">
+        <label for="fio">ФИО:</label>
+        <input type="text" id="fio" name="fio" required><br><br>
+        
+        <label for="passport">Серия и номер паспорта:</label>
+        <input type="text" id="passport" name="passport" required><br><br>
+        
+        <label for="gender">Пол:</label>
+        <select id="gender" name="gender" required>
+            <option value="Мужской">Мужской</option>
+            <option value="Женский">Женский</option>
+        </select><br><br>
+        
+        <label for="has_children">Количество детей:</label>
+		<input type="text" id="children" name="children" required><br><br>
+        
+        <label for="smokes">Курит ли человек:</label>
+        <input type="radio" id="smokes_yes" name="smokes" value="Да" required>
+        <label for="smokes_yes">Да</label>
+        <input type="radio" id="smokes_no" name="smokes" value="Нет" required>
+        <label for="smokes_no">Нет</label><br><br>
+        
+        <label for="region">Регион жительства:</label>
+        <select id="region" name="region" required>
+            <option value="northwest">Северо-Западный</option>
+            <option value="northeast">Северо-Восточный</option>
+            <option value="southwest">Юго-Западный</option>
+            <option value="southeast">Юго-Восточный</option>
+        </select><br><br>
+        
+        <label for="birthdate">Дата рождения:</label>
+        <input type="date" id="birthdate" name="birthdate" required><br><br>
+        
+        <label for="weight">Вес:</label>
+        <input type="number" id="weight" name="weight" step="0.1" required><br><br>
+		
+		<label for="height">Рост:</label>
+        <input type="number" id="height" name="height" step="0.1" required><br><br>
+        
+        <input type="submit" value="Отправить">
+    </form>
+</body>
+</html>
